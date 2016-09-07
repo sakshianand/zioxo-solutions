@@ -1,0 +1,53 @@
+body
+{
+    background-color: crimson;
+}
+.card-heading
+{
+    padding: 5px;
+    max-height: 90px;
+}
+/* label color */
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: crimson;
+}
+.input-field input[type=password]:focus + label {
+    color: crimson;
+}
+.input-field input[type=email]:focus + label {
+    color: crimson;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid crimson;
+    box-shadow: 0 1px 0 0 crimson;
+}
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid crimson;
+    box-shadow: 0 1px 0 0 crimson;
+}
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid crimson;
+    box-shadow: 0 1px 0 0 crimson;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid crimson;
+    box-shadow: 0 1px 0 0 crimson;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid crimson;
+    box-shadow: 0 1px 0 0 crimson;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: crimson;
+}
+.btn:hover
+{
+    background-color: crimson;
+    text-align: center;
+}
